@@ -15,12 +15,9 @@
 </template>
 
 <style>
-#basic-layout .header {
-  background: #ff3300;
-}
-
 #basic-layout .content {
   background: linear-gradient(to right, #aaa, #fff);
+  padding: 20px;
 }
 
 #basic-layout .footer {
@@ -29,6 +26,8 @@
   bottom: 0;
   left: 0;
   right: 0;
+  text-align: center;
+  padding: 10px;
 }
 </style>
 <script setup lang="ts">
